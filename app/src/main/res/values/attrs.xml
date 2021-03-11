@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="messageRoundBackground" format="reference" />
+    <attr name="messageTextPrimary" format="color" />
+    <attr name="messageTextSecondary" format="color" />
+    <attr name="contactTextPrimary" format="color" />
+    <attr name="contactTextSecondary" format="color" />
+    <attr name="chatBackground" format="color" />
+    <attr name="listBackground" format="color" />
+    <attr name="toolbarBackground" format="color" />
+    <attr name="inputBackground" format="color"/>
+    <attr name="attachIcon" format="reference"/>
+    <attr name="color" format="color" />
+
+    <declare-styleable name="CircleColorImageView">
+        <attr name="circleColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="itemWidthPadding" format="dimension"/>
+        <attr name="itemHeightPadding" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="VisualizerView">
+        <attr name="barWidth" format="dimension" />
+        <attr name="gapWidth" format="dimension" />
+        <attr name="color" />
+        <attr name="alphaPlayed" format="float" />
+        <attr name="alphaUnplayed" format="float" />
+    </declare-styleable>
+    <declare-styleable name="CircularPulseImageButton">
+        <attr name="lineWidth" format="dimension" />
+        <attr name="durationExpand" format="integer" />
+        <attr name="durationGap" format="integer" />
+        <attr name="color" />
+    </declare-styleable>
+</resources>
