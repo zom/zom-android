@@ -1,0 +1,57 @@
+{
+  "servers": [
+    {
+      "name": "Zom Nang",
+      "description": "Zom2 Nang Matrix Server",
+      "website": "https://zom.im",
+      "twitter": "https://twitter.com/zomapp",
+      "privacy_policy": "https://zom.im/privacy",
+      "logo": "image/zom.png",
+      "country_code": "US",
+      "domain": "nang.zom.im",
+      "server": "zom-production-nang-loadbalancer-1207751385.us-east-2.elb.amazonaws.com",
+      "ip": "",
+      "port": 443,
+      "requires_otr": true,
+      "captcha": false,
+      "extensions": [],
+      "certificate": ""
+    },
+    {
+      "name": "KeanuDev",
+      "description": "Keanu team's home while building Keanu",
+      "website": "https://keanu.im",
+      "twitter": "https://twitter.com/keanuapp",
+      "privacy_policy": "https://keanu.im/privacy",
+      "logo": "image/keanu.png",
+      "country_code": "US",
+      "domain": "neo.keanu.im",
+      "server": "ec2-18-195-234-152.eu-central-1.compute.amazonaws.com",
+      "ip": "18.195.234.152",
+      "port": 443,
+      "requires_otr": true,
+      "captcha": false,
+      "extensions": [],
+              "certificate": ""
+    },
+    {
+      "name": "Matrix.org Home",
+      "description": "The main matrix server",
+      "website": "https://matrix.org",
+      "twitter": "https://twitter.com/matrix",
+      "privacy_policy": "https://matrix.org/privacy",
+      "logo": "image/matrix.png",
+      "country_code": "FR",
+      "domain": "matrix.org",
+      "server": "matrix.org",
+      "ip": "104.20.20.236",
+      "port": 443,
+      "requires_otr": true,
+      "captcha": false,
+      "extensions": [],
+      "certificate": ""
+    }
+
+
+  ]
+}

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name_zom">Zom</string> 
+  <string name="create_an_account">Create an Account</string>
+  <string name="create_id">Create a Zom ID</string>
+  <string name="advanced">Advanced</string>
+  <string name="account_congrats">Congratulations, you are ready to Zom!</string>
+  <string name="account_congrats_details">You can find your password and account details on your profile page.</string>
+  <string name="invite_friends">Add Friends!</string>
+  <string name="invite_sms">SMS</string> 
+  <string name="invite_share">Share</string>
+  <string name="invite_scan_qr">Scan</string>
+  <string name="sign_in_message">Sign into an existing account</string>
+  <string name="invite_action">Invite</string>
+  <string name="friends">Friends</string>
+  <string name="add_friends">Add Friends</string>
+  <string name="search_by_id">Search by ID</string>
+  <string name="invite_accepted">You are now friends on Zom</string>
+  <string name="chats">Chats</string>
+  <string name="choose_friend">Choose a Friend</string>
+  <string name="send_message">Send a message</string>
+  <string name="push_to_talk">Push to talk</string>
+  <string name="recording_release">Recording… Release to send</string>
+  <string name="recording_delete">Recording… Release to delete</string>
+  <string name="swipe_up_delete">Swipe up to delete</string>
+  <string name="create_group">Create a Group</string>
+  <string name="members">Members</string>
+  <string name="group_name">Group Name</string>
+  <string name="search_history">Search History</string>
+  <string name="photo_gallery">Photo Stream</string>
+  <string name="me_title">Me</string>
+  <string name="accounts">My Accounts</string>
+  <string name="select_avatar">Select or Create an Avatar</string>
+  <string name="delete_account">Delete Account</string>
+  <string name="add_account_action">Add Account</string>
+  <string name="choose_photos">Choose from Photos</string>
+  <string name="choose_language">Switch Language</string>
+  <string name="welcome_to_zom">WELCOME TO ZOM</string>
+  <string name="onboarding_generate">(this is how people will find you).</string>
+  <string name="grant_perms">You must grant permission for Zom to use the camera</string>
+
+  <string name="menu_refresh">Refresh Session</string>
+
+  <string name="action_archived">Archived</string>
+    <string name="action_unarchived">Unarchived</string>
+
+    <string name="action_verified">Verified</string>
+
+  <string name="action_theme">Change Theme</string>
+  <string name="action_stickers">Sticker Share</string>
+
+  <string name="pref_block_screenshots_title">Block Screenshots</string>
+  <string name="pref_block_screenshots_summary">Block attempts for other apps to take screenshots of this app</string>
+
+  <string name="pref_enable_tibetan_dictionary_title">Enable Tibetan Dictionary</string>
+  <string name="pref_enable_tibetan_dictionary_summary">If present, suggest Tibetan matching words from the Monlam Tibetan Dictionary app</string>
+
+  <string name="color_category_title">Custom Colors</string>
+  <string name="color_reset_title">Reset Colors</string>
+  <string name="color_reset_summary">Reset colors to default values</string>
+
+  <string name="color_header_title">Header Colors</string>
+  <string name="color_header_summary">Color of headers, actionbars and toolbars</string>
+
+  <string name="color_text_title">Text Color</string>
+  <string name="color_text_summary">Color of text in messages and lists</string>
+
+
+  <string name="color_bg_title">Background Color</string>
+  <string name="color_bg_summary">Color of chat backgrounds and lists</string>
+
+  <string name="menu_approve_friend">Approve Friend?</string>
+
+  <string name="header_got_invited">GOT INVITED?</string>
+  <string name="action_tap_invite">Tap the Zom invite link from your friend or scan their QR code now</string>
+
+  <string name="action_invite_new_friends">Send an invite link to your friends via SMS or SHARE through any app</string>
+
+  <string name="not_verified">Please verify your friend\'s Secure Identity to be safe!</string>
+
+  <string name="security_code">Secure Identity</string>
+
+  <string name="reset_passphrase">Reset Lock</string>
+
+  <string name="action_services">Zom Services</string>
+
+  <string name="migrate_menu">Migrate Account</string>
+  <string name="migrate_message">"I’ve upgraded my account. Zom me at </string>
+
+  <string name="migrate_notification">Your account is expiring soon. Open the app to upgrade.</string>
+
+    <string name="action_undo">Undo</string>
+
+    <string name="message_upgrade">We need to upgrade your Zom account to a new server. We can automatically upgrade you to provide the best performance.</string>
+
+    <string name="message_upgrade_more">We need to upgrade your Zom account to a new server. We can automatically upgrade you to provide the best performance. If you are an advanced user, you can also choose your own server.</string>
+
+    <string name="upgrade_desc">We\'re making improvements around here.\nGet your free upgrade!</string>
+
+    <string name="upgrade_action">Upgrade Now</string>
+
+    <string name="upgrade_complete">Upgrade Complete! Waiting for your friends to approve your upgraded account.</string>
+
+  <string name="upgrade_complete_action">Done</string>
+
+    <string name="upgrade_progress_action">Working on it…</string>
+
+  <string name="upgrade_failed">The upgrade failed. Please try again later! You can also select \"Migrate Account\" from the account settings menu.</string>
+
+    <string name="contact_migration_notice">Your friend has upgraded. Chat with them at</string>
+
+  <string name="contact_migration_action">Chat Now</string>
+
+
+<string name="upgrade_old_chats">Your old chats from before you upgraded are stored here</string>
+
+<string name="message_waiting_for_friend">Waiting for your friend</string>
+
+
+  <string name="message_archive">Some of your Zom friends are upgrading their accounts. Expired accounts will be stored here.</string>
+
+
+  <string name="one_moment_please_privacy">One moment please! We’re preparing your private Zom.</string>
+
+
+
+  <string name="action_got_it">Got it</string>
+
+
+  <string name="action_inbox">Inbox</string>
+
+  <string name="action_active">Active</string>
+
+  <string name="action_archive">Archive</string>
+
+
+  <string name="title_pending">Pending Approval</string>
+
+
+  <string name="title_advanced">Advanced</string>
+
+  <string name="action_upgrade_now">Upgrade now</string>
+
+
+  <string name="action_chat_now">Chat now</string>
+
+
+  <string name="action_add_buddy">Add friend</string>
+  <string name="action_leave">Leave</string>
+  <string name="add_people">Add People</string>
+  <string name="notifications">Notifications</string>
+  <string name="is_already_in_your_group">%1$s ✔️</string>
+
+    <string name="confirm_leave_group_title">Leave Group?</string>
+  <string name="confirm_leave_group">Your group chat history will be wiped away. To keep these chats, archive the group instead.</string>
+
+  <string name="pref_enable_advanced_network_features">Advanced Networking</string>
+  <string name="pref_enable_advanced_network_features_summary">Enable advanced protection against network threats</string>
+
+    <string name="pref_proxy_server_host_title">Proxy Server Host</string>
+    <string name="pref_proxy_server_host_summary">Host or domain name of SOCKS proxy</string>
+
+    <string name="pref_proxy_server_port_title">Proxy Server Port</string>
+    <string name="pref_proxy_server_port_summary">Port of SOCKS proxy</string>
+
+    <string name="are_you_sure">Are you sure?</string>
+  <string name="photo_x_of_y">Photo %1$d of %2$d</string>
+
+  <string name="mtm_trust_anchor">The server certificate is not signed by a known Certificate Authority.</string>
+  <string name="mtm_cert_expired">The server certificate is expired.</string>
+  <string name="mtm_hostname_mismatch">Server could not authenticate as \&quot;%s\&quot;. The certificate is only valid for:</string>
+
+  <string name="mtm_connect_anyway">Do you want to connect anyway?</string>
+  <string name="mtm_cert_details">Certificate details:</string>
+
+  <string name="mtm_decision_always">Always</string>
+  <string name="mtm_decision_once">Once</string>
+  <string name="mtm_decision_abort">Abort</string>
+
+  <string name="mtm_notification">Certificate Verification</string>
+
+  <string name="bot_zomkyi_name">Zomkyi</string>
+  <string name="bot_zomkyi_desc">Ask me about Zom</string>
+
+  <string name="bot_quiz_name">Agu Denpa</string>
+  <string name="bot_quiz_desc">Take my quiz</string>
+  <string name="bot_topgyal_name">Topgyal</string>
+  <string name="bot_topgyal_desc">Ask me anything</string>
+
+
+  <string name="stickers_pema">Pema</string>
+    <string name="stickers_zomkyi">Zomkyi</string>
+    <string name="stickers_topgyal">Topgyal</string>
+    <string name="stickers_sindu">Sindu</string>
+    <string name="stickers_losar">Losar</string>
+    <string name="stickers_tiboji">Tiboji</string>
+    <string name="stickers_buddhist">Buddhist</string>
+    <string name="stickers_expressions">Expressions</string>
+    <string name="stickers_olo_and_shimi"><![CDATA[Olo & Shimi]]></string>
+  <string name="add_x_as_friend">Add %s as Friend</string>
+  <string name="add_x_as_friend_question">Add %s as friend?</string>
+  <string name="no_thanks">No thanks</string>
+  <string name="added">Added</string>
+  <string name="room_invited">You have been invited to a group.</string>
+  <string name="room_join">Join</string>
+  <string name="room_dont_join">No thanks</string>
+  <string name="make_group_admin">Make group admin</string>
+  <string name="view_profile">View profile</string>
+  <string name="kickout">Kickout</string>
+  <string name="find_your_friend">Find your friend on Zom</string>
+  <string name="hint_add_friend" translatable="false"><font size="12">@zomkyi12:home.zom.im</font></string>
+  <string name="enter_your_friends_account">Enter your friend\'s short username or full address. Your\'s is</string>
+  <string name="send_your_invite_link">Send your invite link</string>
+  <string name="standing_next_to_them">Standing next to them?</string>
+
+  <string name="pref_enable_proof_mode_title">Photo Verification</string>
+  <string name="pref_enable_proof_mode_summary">Add extra proof data to your photos to make it easier for people to verify the authenticity</string>
+
+</resources>
