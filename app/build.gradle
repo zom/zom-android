@@ -11,8 +11,8 @@ android {
         applicationId "im.zom.keanu3"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 300001200
-        versionName "3.0.0-BETA-2"
+        versionCode 300001300
+        versionName "3.0.0-BETA-3"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -91,7 +91,5 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-
-    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.17'
-}
+    
+    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.18'}
