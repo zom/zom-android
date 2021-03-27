@@ -11,8 +11,8 @@ android {
         applicationId "im.zom.keanu3"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 300001300
-        versionName "3.0.0-BETA-3"
+        versionCode 300001400
+        versionName "3.0.0-BETA-4"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -51,10 +51,10 @@ android {
         exclude 'META-INF/proguard'
         exclude 'META-INF/proguard/androidx-annotations.pro'
         exclude 'META-INF/androidx.exifinterface_exifinterface.version'
-        exclude 'lib/arm64-v8a/libjingle_peerconnection_so.so'
-        exclude 'lib/armeabi-v7a/libjingle_peerconnection_so.so'
-        exclude 'lib/x86/libjingle_peerconnection_so.so'
-        exclude 'lib/x86_64/libjingle_peerconnection_so.so'
+    //    exclude 'lib/arm64-v8a/libjingle_peerconnection_so.so'
+     //   exclude 'lib/armeabi-v7a/libjingle_peerconnection_so.so'
+      //  exclude 'lib/x86/libjingle_peerconnection_so.so'
+       // exclude 'lib/x86_64/libjingle_peerconnection_so.so'
 
 
     }
@@ -91,5 +91,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    
-    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.18'}
+
+    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.20'
+
+}
