@@ -11,8 +11,8 @@ android {
         applicationId "im.zom.keanu3"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 300001400
-        versionName "3.0.0-BETA-4"
+        versionCode 300001500
+        versionName "3.0.0-BETA-5"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -20,7 +20,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -92,6 +92,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.20'
+    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.21'
 
 }
