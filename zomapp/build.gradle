@@ -8,12 +8,12 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        //applicationId "im.zom.messenger"
-        applicationId "im.zom.keanu3"
+        applicationId "im.zom.messenger"
+        //applicationId "im.zom.keanu3"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 301001400
-        versionName "3.0.1-BETA-4"
+        versionCode 301001500
+        versionName "3.0.1-BETA-5"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
