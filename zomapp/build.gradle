@@ -12,8 +12,8 @@ android {
         //applicationId "im.zom.keanu3"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 301001500
-        versionName "3.0.1-BETA-5"
+        versionCode 301002100
+        versionName "3.0.1-RC-1"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -95,3 +95,19 @@ dependencies {
   //  implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.29'
 
 }
+
+// Map for the version code that gives each ABI a value.
+ext.abiCodes = ['armeabi-v7a': '1', 'arm64-v8a': '2', 'mips': '3', 'x86': '4', 'x86_64': '5']
+
+// For each APK output variant, override version code of outputs based on ABI codes
+// ex) 'mips' -> 3xxx
+// ex) 'x86' -> 4xxx
+android.applicationVariants.all { variant ->
+    variant.outputs.each { output ->
+        def baseVersionCode = project.ext.abiCodes.get(output.getFilter(com.android.build.OutputFile.ABI))
+        if (baseVersionCode != null) {
+            output.versionCodeOverride = Integer.valueOf(variant.versionCode) + Integer.valueOf(baseVersionCode)
+        }
+    }
+}
+
