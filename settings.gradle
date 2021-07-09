@@ -1,3 +1,4 @@
 rootProject.name = "Zom-Keanu3"
-include ':zomapp',':libkeanu'
-project(':libkeanu').projectDir = file('../keanuapp-android-uionly/app')
+include ':zomapp'
+//,':libkeanu'
+//project(':libkeanu').projectDir = file('../keanuapp-android-uionly/app')
