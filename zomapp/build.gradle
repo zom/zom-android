@@ -33,6 +33,15 @@ android {
 
     productFlavors {
 
+
+        nightly {
+            dimension = "release"
+            applicationId "im.zom.keanu3"
+            versionCode 302001300
+            versionName "3.0.2-BETA-3"
+            archivesBaseName = "Zom-$versionName-nightly"
+        }
+
         primary {// Assigns this product flavor to the "mode" flavor dimension.
             dimension "release"
             applicationId "im.zom.messenger"
@@ -41,15 +50,6 @@ android {
             versionName "3.0.2-BETA-2"
             multiDexEnabled true
         }
-
-        nightly {
-            dimension = "release"
-            applicationId "im.zom.keanu3"
-            versionCode 302001200
-            versionName "3.0.2-BETA-2"
-            archivesBaseName = "Zom-$versionName-nightly"
-        }
-
 
     }
 
@@ -115,7 +115,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.37'
+    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.38'
 
 }
 
