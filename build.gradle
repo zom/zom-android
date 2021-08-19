@@ -1,14 +1,22 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
 buildscript {
-    ext.kotlin_version = "1.5.20"
+    // TODO: Upgrade to Kotlin 1.5. Can't build with it, a.t.m. No idea, why.
+    //  (Works on Element!)
+    ext.kotlin_version = '1.4.32'
+
     repositories {
         google()
         jcenter()
     }
+
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.android.tools.build:gradle:7.0.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "io.realm:realm-gradle-plugin:6.0.2"
+        // TODO: Upgrade to 10.x. Currently fails with "AbstractMethodError: abstract method 'long io.realm.internal.RealmProxyMediator.insertOrUpdate([...]'"
+                //   (Works on Element!)
+                classpath "io.realm:realm-gradle-plugin:7.0.8"
+                classpath 'com.testdroid:gradle:2.63.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -19,12 +27,14 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
+        maven { url "https://jitpack.io" }
         maven {
             url "https://github.com/vector-im/jitsi_libre_maven/raw/master/android-sdk-2.9.3"
         }
     }
 }
+
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir
