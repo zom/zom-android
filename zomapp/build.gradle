@@ -11,8 +11,8 @@ android {
         applicationId "im.zom.messenger"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 302001200
-        versionName "3.0.2-BETA-2"
+        versionCode 302002200
+        versionName "3.0.2-RC-2"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -36,16 +36,11 @@ android {
         primary {// Assigns this product flavor to the "mode" flavor dimension.
             dimension "mode"
             applicationId "im.zom.messenger"
-            versionCode 302002200
-            versionName "3.0.2-RC-2"
-            multiDexEnabled true
         }
 
         nightly {
             dimension = "mode"
             applicationId "im.zom.keanu3"
-            versionCode 302002200
-            versionName "3.0.2-RC-2"
         }
 
 
