@@ -36,7 +36,7 @@ android {
         primary {// Assigns this product flavor to the "mode" flavor dimension.
             dimension "mode"
             applicationId "im.zom.messenger"
-        }
+                                                                                                                                                                                                                                                                                                                                            }
 
         nightly {
             dimension = "mode"
@@ -105,13 +105,21 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    //leave at 1.3.0 for now; match keanuapp-android-trinity core dependencies
-    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.41'
+    //    // lock
+    implementation 'com.github.thealeksandr:PFLockScreen-Android:1.0.0-beta7'
+
+
+    implementation project(':app')
+
+    //  implementation project(':app')
+//    implementation(name:'matrix-sdk-android-release', ext:'aar')
+    //implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.44'
+
 
 
 

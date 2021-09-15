@@ -3,7 +3,9 @@
 buildscript {
     // TODO: Upgrade to Kotlin 1.5. Can't build with it, a.t.m. No idea, why.
     //  (Works on Element!)
-    ext.kotlin_version = '1.4.32'
+    ext.kotlin_version = '1.5.21'
+    ext.moshi_version = '1.12.0'
+    ext.kotlin_coroutines_version = "1.5.0"
 
     repositories {
         google()
@@ -11,11 +13,11 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.1'
+        classpath 'com.android.tools.build:gradle:7.0.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        // TODO: Upgrade to 10.x. Currently fails with "AbstractMethodError: abstract method 'long io.realm.internal.RealmProxyMediator.insertOrUpdate([...]'"
+        // TODO: Upgrade to 10.x. Currently fails with "AbstractMethodError: abstract method 'long io.realm.internal.RealmProxyMediator.insertOrUpdat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       e([...]'"
                 //   (Works on Element!)
-                classpath "io.realm:realm-gradle-plugin:7.0.8"
+                classpath "io.realm:realm-gradle-plugin:10.8.0"
                 classpath 'com.testdroid:gradle:2.63.1'
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -31,6 +33,10 @@ allprojects {
         maven {
             url "https://github.com/vector-im/jitsi_libre_maven/raw/master/android-sdk-2.9.3"
         }
+        flatDir {
+            dirs 'libs'
+        }
+
     }
 }
 
