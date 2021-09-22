@@ -114,11 +114,7 @@ dependencies {
     implementation 'com.github.thealeksandr:PFLockScreen-Android:1.0.0-beta7'
 
 
-    implementation project(':app')
-
-    //  implementation project(':app')
-//    implementation(name:'matrix-sdk-android-release', ext:'aar')
-    //implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.44'
+    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.45'
 
 
 
