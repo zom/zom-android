@@ -1,4 +1,3 @@
 rootProject.name = "Zom-Keanu3"
 include ':zomapp'
-include ':app'
-project (':app').projectDir = file("../keanuapp-android-trinity/app")
+
