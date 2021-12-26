@@ -1,10 +1,12 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-parcelize'
 }
 
+
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
     defaultConfig {
@@ -113,10 +115,8 @@ dependencies {
     //    // lock
     implementation 'com.github.thealeksandr:PFLockScreen-Android:1.0.0-beta7'
 
-    implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.57'
-
-
-
+   // implementation 'com.gitlab.keanuapp:keanu-android-trinity-app:0.0.5.61'
+    implementation 'info.guardianproject.keanuapp:keanulib:0.0.5.61'
 
 }
 

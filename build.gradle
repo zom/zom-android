@@ -9,11 +9,13 @@ buildscript {
 
     repositories {
         google()
+        mavenCentral()
         jcenter()
+
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.2'
+        classpath 'com.android.tools.build:gradle:7.0.4'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // TODO: Upgrade to 10.x. Currently fails with "AbstractMethodError: abstract method 'long io.realm.internal.RealmProxyMediator.insertOrUpdat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       e([...]'"
                 //   (Works on Element!)
@@ -27,12 +29,11 @@ buildscript {
 
 allprojects {
     repositories {
+
+        maven { url "https://jitpack.io" }
+        maven { url "https://raw.githubusercontent.com/guardianproject/gpmaven/master" }
         google()
         jcenter()
-        maven { url "https://jitpack.io" }
-        maven {
-            url "https://github.com/vector-im/jitsi_libre_maven/raw/master/android-sdk-2.9.3"
-        }
 
     }
 }
