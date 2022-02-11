@@ -3,7 +3,7 @@
 buildscript {
     // TODO: Upgrade to Kotlin 1.5. Can't build with it, a.t.m. No idea, why.
     //  (Works on Element!)
-    ext.kotlin_version = '1.5.21'
+    ext.kotlin_version = '1.6.10'
     ext.moshi_version = '1.12.0'
     ext.kotlin_coroutines_version = "1.5.0"
 

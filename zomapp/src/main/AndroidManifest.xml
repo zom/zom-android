@@ -69,6 +69,23 @@
             </intent-filter>
         </activity>
 
+
+        <service
+            android:name="info.guardianproject.keanu.core.service.GeneralJobIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+
+        <receiver
+            android:name="info.guardianproject.keanu.core.service.AlarmSyncBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name="info.guardianproject.keanu.core.service.KeanuSyncService"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+
+
     </application>
 
 </manifest>
