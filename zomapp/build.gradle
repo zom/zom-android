@@ -13,8 +13,8 @@ android {
         applicationId "im.zom.messenger"
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 306002100
-        versionName "3.0.6-RC-1"
+        versionCode 306002200
+        versionName "3.0.6-RC-2"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -115,7 +115,7 @@ dependencies {
     //    // lock
     implementation 'com.github.thealeksandr:PFLockScreen-Android:1.0.0-beta7'
 
-    implementation 'info.guardianproject.keanuapp:keanulib:0.0.5.70'
+    implementation 'info.guardianproject.keanuapp:keanulib:0.0.5.71'
 
 }
 
