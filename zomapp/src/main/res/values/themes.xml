@@ -74,7 +74,7 @@
 
     </style>
 
-    <style name="AppTheme" parent="@style/Theme.AppCompat.Light" >
+    <style name="AppTheme" parent="@style/Theme.MaterialComponents.Light" >
 
         <!-- colorPrimary is used for the default action bar background -->
         <item name="colorPrimary">@color/zom_primary</item>
@@ -147,7 +147,7 @@
     </style>
 
 
-    <style name="AppThemeDark" parent="@style/Theme.AppCompat" >
+    <style name="AppThemeDark" parent="@style/Theme.MaterialComponents" >
         <item name="messageTextPrimary">#dddddd</item>
         <item name="messageRoundBackground">@drawable/message_view_rounded_dark</item>
         <item name="messageTextSecondary">#aaaaaa</item>
