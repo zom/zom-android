@@ -101,7 +101,7 @@ android {
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.8.0'
-    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
     implementation 'androidx.multidex:multidex:2.0.1'
 
@@ -115,7 +115,7 @@ dependencies {
     //    // lock
     implementation 'com.github.thealeksandr:PFLockScreen-Android:1.0.0-beta7'
 
-    implementation 'info.guardianproject.keanuapp:keanulib:0.0.5.78'
+    implementation 'info.guardianproject.keanuapp:keanulib:0.0.5.80'
 
 }
 
