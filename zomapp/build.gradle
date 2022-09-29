@@ -13,8 +13,8 @@ android {
         applicationId "im.zom.messenger"
         minSdkVersion 21
         targetSdkVersion 32
-        versionCode 308002100
-        versionName "3.0.8-RC-1"
+        versionCode 309002100
+        versionName "3.0.9-RC-1"
         archivesBaseName = "Zom-$versionName"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
