@@ -115,7 +115,7 @@ dependencies {
     //    // lock
     implementation 'com.github.thealeksandr:PFLockScreen-Android:1.0.0-beta7'
 
-    implementation 'info.guardianproject.keanuapp:keanulib:0.0.5.80'
+    implementation 'info.guardianproject.keanuapp:keanulib:0.0.5.81'
 
 }
 
